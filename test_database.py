@@ -5,9 +5,11 @@ Test database setup and models
 import sys
 import os
 
-# Add src to path so we can import our modules
+# Add src to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
+# Now import using absolute imports
+from core.database.manager import db_manager
 from models.user import User
 from models.pc import PC
 

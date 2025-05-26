@@ -3,7 +3,7 @@ PC model for managing computer workstations
 """
 from datetime import datetime
 from typing import Optional, List
-from ..core.database.manager import db_manager
+from core.database.manager import db_manager
 
 
 class PC:
