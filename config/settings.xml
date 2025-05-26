@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cafe_settings>
+    <general>
+        <cafe_name>My Internet Cafe</cafe_name>
+        <currency>USD</currency>
+        <timezone>UTC</timezone>
+    </general>
+    <network>
+        <server_port>8080</server_port>
+        <broadcast_interval>30</broadcast_interval>
+    </network>
+    <supabase>
+        <url>your_supabase_url</url>
+        <key>your_api_key</key>
+    </supabase>
+</cafe_settings>
