@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pc_profiles>
+  <pc_profile>
+    <name>Gaming-001</name>
+    <type>gaming</type>
+    <specs>High-end gaming PC</specs>
+    <software>
+      <allow_games>true</allow_games>
+      <allow_downloads>false</allow_downloads>
+      <allow_installs>false</allow_installs>
+    </software>
+    <time_limits>
+      <max_session_hours>8</max_session_hours>
+      <idle_timeout>10</idle_timeout>
+    </time_limits>
+  </pc_profile>
+  <pc_profile>
+    <name>Office-001</name>
+    <type>office</type>
+    <specs>Standard office PC</specs>
+    <software>
+      <allow_games>false</allow_games>
+      <allow_downloads>false</allow_downloads>
+      <allow_installs>false</allow_installs>
+    </software>
+    <time_limits>
+      <max_session_hours>4</max_session_hours>
+      <idle_timeout>10</idle_timeout>
+    </time_limits>
+  </pc_profile>
+  <pc_profile>
+    <name>Basic-001</name>
+    <type>basic</type>
+    <specs>Basic browsing PC</specs>
+    <software>
+      <allow_games>false</allow_games>
+      <allow_downloads>false</allow_downloads>
+      <allow_installs>false</allow_installs>
+    </software>
+    <time_limits>
+      <max_session_hours>4</max_session_hours>
+      <idle_timeout>10</idle_timeout>
+    </time_limits>
+  </pc_profile>
+</pc_profiles>
